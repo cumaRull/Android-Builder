@@ -108,10 +108,10 @@ jobs:
           set -e
           lunch ${{ env.DEVICE_MAKEFILE }}-eng && mka adbd ${{ env.DEVICE_BOOT_PARTITION }}image
 
-      - name: ♎ Take the OrangeFox build
+      - name: ♎ Take the Twrp build
         uses: actions/upload-artifact@v3
         with:
-          name: OrangeFox
+          name: Twrp
           if-no-files-found: warn
           path: |
             ${{ env.OUT_DIR }}/target/product/${{ env.DEVICE_NAME }}/*${{ env.DEVICE_NAME }}.img
