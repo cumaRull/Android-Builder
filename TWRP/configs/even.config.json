@@ -1,0 +1,16 @@
+[
+    {
+        "OrangeFox": {
+            "Repo": "https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp",
+            "Branch": "twrp-12.1"
+        },
+        "Device": {
+            "Repo": "https://github.com/RullV2/android_recovery_realme_RMX3191-twrp-11-port.git",
+            "Branch": "master",
+            "Location": "device/realme/RMX3191",
+            "DeviceName": "RMX3191",
+            "Makefile": "twrp_RMX3191",
+            "BootPartition": "recovery"
+        }
+    }
+]
